@@ -1,4 +1,24 @@
+/*Tratar solo como imagen*/
 img{
   max-width: 100%;
   height: auto;
+}
+/*Tratar como fondo*/
+.imagen{
+  max-width: 100%;
+  height: 400px;;
+
+  background-image: url("../imagenes/pug1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.gradiente{
+  width: 700px;
+  height: 700px;
+  background: linear-gradient(to bottom right,red,yellow,blue,black,rgb(32, 199, 134),rgb(17, 156, 224));
+}
+.gra{
+  width: 700px;
+  height: 700px;
+  background: linear-gradient(to bottom right,rgba(249, 4, 4,0.01),rgba(250, 2, 2,1));
 }
