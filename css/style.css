@@ -2,15 +2,18 @@
 img{
   max-width: 100%;
   height: auto;
+
 }
 /*Tratar como fondo*/
 .imagen{
-  max-width: 100%;
+  width: auto;;
   height: 400px;;
 
   background-image: url("../imagenes/pug1.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 .gradiente{
   width: 700px;
@@ -21,4 +24,10 @@ img{
   width: 700px;
   height: 700px;
   background: linear-gradient(to bottom right,rgba(249, 4, 4,0.01),rgba(250, 2, 2,1));
+}
+.transformacion{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transform: translate(500px, 200px);
 }
