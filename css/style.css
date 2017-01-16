@@ -73,11 +73,13 @@ img{
   width: 100px;
   height: 100px;
   background-color: black;
-  transition: background 3s, height 3s, transform 3s;
+  transition: background 3s, transform 3s;
 
 }
 .memorama:hover{
-  background-color: gray;
+  text-align: center;
+  padding: 5%;
+  background-image: url("../imagenes/papel.jpg");
   transform: rotate(360deg);
 
 }
