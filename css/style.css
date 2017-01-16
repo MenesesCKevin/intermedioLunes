@@ -29,5 +29,25 @@ img{
   width: 100px;
   height: 100px;
   background-color: blue;
-  transform: translate(500px, 200px);
+  /*transform: translate(500px, 200px);*/
+  /*transform: scale(3);*/
+  /*transform: rotate(45deg);*/
+  /*transform: skewX(5px);*/
+  /*transform: scale(3,2) rotate(20deg)
+  translate(50px,40px);*/
+  transform: rotateX(30deg);
+}
+.transicion{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(77, 186, 83);
+  transition: background 3s, height 3s, transform 3s;
+  /*transition-delay: 3s;*/
+
+}
+.transicion:hover{
+  background-color: rgb(43, 120, 191);
+  height: 200px;
+  transform: scale(5) rotate(45deg) translate(50px, 50px);
+
 }
