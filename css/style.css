@@ -69,3 +69,19 @@ img{
   50%{background-color: yellow;}
   100%{background-color: orange;}
 }
+.memorama{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transition: background 3s, height 3s, transform 3s;
+
+}
+.memorama:hover{
+  background-color: gray;
+  transform: rotate(360deg);
+
+}
+.todos{
+  width: 22%;
+  display: inline-block;
+}
